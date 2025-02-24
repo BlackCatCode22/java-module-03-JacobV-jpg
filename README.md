@@ -49,4 +49,41 @@ public class student {
 
 //2.
 //myStuff.java
+public class Main {
+
+    public static void main(String[] args) {
+        object artist1 = new object();
+        artist1.Artist = "Timmy Well";
+        artist1.Genre = "Comedy";
+        artist1.Title = "The Hunt";
+        artist1.Year = 31000;
+        artist1.Medium = "Oil";
+
+        object artist2 = new object();
+        artist2.Artist = "Leonardo Da Vinci";
+        artist2.Genre = "Renaissance";
+        artist2.Title = "Mona Lisa";
+        artist2.Year = 1503;
+        artist2.Medium = "Oil";
+
+        System.out.println(artist1.Artist);
+        System.out.println(artist2.Artist);
+
+
+    }
+}
+public class object {
+    String Genre;
+    String Title;
+    int Year;
+    String Artist;
+    String Medium;
+
+
+
+}
+
+
+//3.
+//myAnimals.java
 
